@@ -1,5 +1,5 @@
 class ApiConfig {
-  static const String baseUrl = "http://10.98.18.36:8080";
+  static const String baseUrl = "http://172.27.240.1:8080";
 
   // Auth
   static Uri loginUrl() => Uri.parse("$baseUrl/auth/login.php");
